@@ -4,8 +4,10 @@
     <div class="cover">
         <div class="cover-inner">
             <div class="cover-contents">
-                <h1>RAMEN</h1>
-                <a href="" class="btn btn-default btn-lg">新規登録</a>
+                <h1>RAMENIST</h1>
+                @if (!Auth::check())
+                    <a href="{{ route('signup.get') }}" class="btn btn-default btn-lg">新規登録</a>
+                @endif
             </div>
         </div>
     </div>

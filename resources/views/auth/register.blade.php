@@ -3,8 +3,8 @@
 @section('content')
 <div class="row">
     <div class="col-xs-offset-3 col-xs-6">
-        <div class="panel panel-default">
-            <div class="panel-heading">会員登録</div>
+        <div class="panel">
+            <h3 class="panel-heading text-center">会員登録</h3>
             <div class="panel-body">
                 {!! Form::open(['route' => 'signup.post']) !!}
                     <div class="form-group">
@@ -27,8 +27,8 @@
                         {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
                     </div>
 
-                    <div class="text-right">
-                        {!! Form::submit('登録する', ['class' => 'btn btn-success']) !!}
+                    <div class="text-center">
+                        {!! Form::submit('登録する', ['class' => 'btn btn-warning']) !!}
                     </div>
                 {!! Form::close() !!}
             </div>
