@@ -5,7 +5,7 @@
         <div class="cover-inner">
             <div class="cover-contents">
                 <h1>RAMEN</h1>
-                <a href="" class="btn btn-default btn-lg">Signup</a>
+                <a href="" class="btn btn-default btn-lg">新規登録</a>
             </div>
         </div>
     </div>

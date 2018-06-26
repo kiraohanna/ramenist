@@ -47,6 +47,8 @@ footer {
 }
 
 .cover .btn-default {
-    background-color: #ffff00;
-    border-color: #ffff00;
+    background-color: #ff6347;
+    border-color: #000000;
+    font-weight: bold;
+    border-width: 3px;
 }
